@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.logo-container {
+    width: 404px;
+    height: 90px;
+    background-color: #48C8B0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 125px;
+    height: 50px;
+    margin: auto
+}
+.top-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    position: relative;
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+.voodoo {
+    font-size: 24px;
+    margin-right: 16px;
+    color: #323635;
+}
+.brazil {
+    font-size: 14px;
+    margin-right: 16px;
+    color: #B0B0B0;
+}
+.top-container img {
+    position: absolute;
+    right: 200px;
+}
+.badge {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: #CC6060;
+    border: solid 2px white;
+    border-radius: 50%;
+    font-size: 9px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    right: 195px;
+    bottom: 45px;
+}
+.speaker {
+    width: 40px;
+    height: 30px;
+    margin-right: 16px;
+    margin-left: 20px
+}
+
+.list-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    width: 279px;
+    background-color: #fafafa;
+    justify-content: center;
+    padding-top: 30px
+}
+ul {
+    list-style: none;
+    height: 100vh;
+}
+li {
+    padding: 10px;
+    width: 200px;
+}
+.list-container li {
+    border-bottom: solid rgba(50, 54, 53, 0.11);
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+.today-song-container {
+    overflow: hidden;
+    height: 400px;
+    background: url(../img/today-song.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 0 0 20em rgba(0, 0, 0, 0.65) inset;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    display: flex;
+    width: 140px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
+    transition: linear 0.2s;
+}
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.829);
+}
+.today-song-container h2:first-child {
+    color: white;
+    font: 700 24px 'Quicksand', sans-serif;
+}
+.today-song-container h2:nth-child(3) {
+    color:white;
+    font: 700 36px 'Quicksand', sans-serif;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.today-song-container h2:last-child {
+    color: white;
+    font: 300 18px 'Quicksand', sans-serif;
+}
+.body-container {
+    display: flex;
+    flex-direction: row;
+}
+.volume-container {
+    background-color: #3B0944;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    padding-top: 28px;
+}
+.volume-list-container {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #630C64;
+    color: white;
+    width: 289px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.body-container:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+.albums {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.songs {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.collections h2:first-child {
+    font: 400 24px 'Quicksand', sans-serif;
+    padding: 30px 15px 10px 0px;
+}
+.collections h3:nth-child(2) {
+    font:700 16px 'Quicksand', sans-serif;
+    color: rgba(50, 54, 53, 0.11)
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border-bottom: solid rgba(50, 54, 53, 0.11);
+    margin: 0 40px 0 40px;
+}
+.volume-list-container li {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    padding: 10px;
+}
+.stroke {
+    background-color: rgba(36, 36, 36, 0.24);
+    height: 7px;
+    border-radius: 15px;
+    margin: 20px 0 0 0;
+}
+.volume {
+    background-color: rgba(0, 0, 0, 0.16);
+    height: 7px;
+    width: 70%;
+}
+.left-right {
+    background-color: rgba(0, 0, 0, 0.16);
+    height: 7px;
+    width: 50%;
+}
+.low {
+    background-color: rgba(0, 0, 0, 0.16);
+    height: 7px;
+    width: 80%;
+}
+.high {
+    background-color: rgba(0, 0, 0, 0.16);
+    height: 7px;
+    width: 60%;
+}
+.volume-list-container li:nth-child(2) {
+    word-spacing: 87px;
+}
